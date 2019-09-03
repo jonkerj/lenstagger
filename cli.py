@@ -18,11 +18,9 @@ for lens in lenses:
 		exif = lens['exif']
 		break
 
-cmd = [f'-{key}={value}'.encode('ascii') for key, value in exif.items()]
+command = [f'-{key}={value}'.encode('ascii') for key, value in exif.items()]
 
 with exiftool.ExifTool() as et:
-	for filename in args.files:
-		command = cmd + [exiftool.fsencode(filename)]
-		print(command)
-		r = et.execute(*command)
-		print(r)
+	command += list(map(exiftool.fsencode, args.files))
+	r = et.execute(*command)
+	print(r.decode('ascii').strip())
