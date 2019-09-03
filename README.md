@@ -1,8 +1,24 @@
 # Lens Tagger
 
-This tool is a simple frontend to help you EXIF tag your manual lenses. It is
+This tool is a simple frontend to help you Exif tag your manual lenses. It is
 inspired by [NameThatLens](https://www.jazzycamel.photography/NameThatLens), a
 GUI designed to do this.
+
+## NameThatLens
+Don't get me wrong, NameThatLens is a cool tool; I have used it with joy. Over
+time, I think it could be better.
+
+* I switch lenses a lot, which complicates my workflow. I have to open a image
+  gallery which previews the raw files, note lens types with file names, and
+  click around in he tool. I believe I can build a tool that does all of this.
+* It lacks fine grained control over which Exif tags it exactly manipulates. For
+  instance, I'd like `Lens` to be filled with both make and model, not just
+  model.
+* When I switched to Mac, the tool simply refused to work. Of course, the author
+  could/should fix that, but the link pointing to the community forum is dead
+  and the tool does not look very actively maintained.
+* I'd like to be able to poke around and fix things myself. NameThatLens is
+  closed source.
 
 ## Usage
 Create or edit the file named `lenses.yaml`. It should contain a list of maps,
