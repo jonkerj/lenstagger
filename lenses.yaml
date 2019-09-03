@@ -1,0 +1,38 @@
+---
+- key: helios44
+  exif:
+    Lens: Zenit Helios 44-2
+    LensType: Zenit Helios 44-2
+    LensMake: Zenit
+    LensModel: Helios 44-2
+    LensInfo: 58 58 2.0 2.0
+    FocalLength: 58
+    FocalLengthIn35mmFormat: 116
+    LensSerialNumber: '83090316'
+- key: vivitar28
+  exif:
+    Lens: Vivitar 28mm 1:2.8 Auto Wide-Angle
+    LensType: Vivitar 28mm 1:2.8 Auto Wide-Angle
+    LensMake: Vivitar
+    LensModel: 28mm 1:2.8 Auto Wide-Angle
+    LensInfo: 28 28 2.8 2.8
+    FocalLength: 28
+    FocalLengthIn35mmFormat: 56
+    LensSerialNumber: '28832266'
+- key: vivitar70-210
+  exif:
+    Lens: Vivitar 70-210mm 1:4.5 MC Macro Focusing Zoom
+    LensType: Vivitar 70-210mm 1:4.5 MC Macro Focusing Zoom
+    LensMake: Vivitar
+    LensModel: 70-210mm 1:4.5 MC Macro Focusing Zoom
+    LensInfo: 70 210 4.5 4.5
+    LensSerialNumber: '77618719'
+- key: tokina
+  exif:
+    Lens: Tokina RMC 100-300mm 1:5
+    LensType: Tokina RMC 100-300mm 1:5
+    LensMake: Tokina
+    LensModel: RMC 100-300mm 1:5
+    LensInfo: 100 300 5.0 5.0
+    LensSerialNumber: '7700764'
+...

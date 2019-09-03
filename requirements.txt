@@ -1,0 +1,2 @@
+ocrd-pyexiftool==0.2.0
+PyYAML==5.1.2
