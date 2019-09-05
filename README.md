@@ -20,7 +20,7 @@ time, I think it could be better.
 * I'd like to be able to poke around and fix things myself. NameThatLens is
   closed source.
 
-## Usage
+## Configuration
 Create or edit the file named `lenses.yaml`. It should contain a list of maps,
 where each map should have the keys `key` and `exif`. The former is used to
 reference the lens upon tool invocation, and the latter a map containing the
@@ -57,11 +57,27 @@ A full example:
 ...
 ```
 
-Next, invoke the tool like this:
+Next, prepare the tool like this:
 
 ```bash
 $ python3 -m venv venv
 $ . venv/bin/activate
 $ pip3 install -r requirements.txt
+```
+
+## Usage
+There are two ways to use LensTagger: CLI and GUI. The CLI is pretty
+straightforward:
+
+```bash
 $ python3 cli.py --lens helios44 file1.RW2 file2.JPG
 ```
+
+The GUI is meant to be invoked using your OS "Open With" menu in its file
+browser. Or, you can run it manually:
+
+```bash
+$ ./openwith.sh --lenses lenses.yaml file1.RW2 file2.JPG
+```
+
+The wrapper script `openwith.sh` takes care the venv-python is used.
