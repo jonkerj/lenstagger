@@ -65,6 +65,13 @@ $ . venv/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
+To run the GUI (currently only tested on MacOS), you need to build the app:
+
+```bash
+$ ./gen-iconset.sh
+$ python setup.py py2app
+```
+
 ## Usage
 There are two ways to use LensTagger: CLI and GUI. The CLI is pretty
 straightforward:
@@ -74,10 +81,16 @@ $ python3 cli.py --lens helios44 file1.RW2 file2.JPG
 ```
 
 The GUI is meant to be invoked using your OS "Open With" menu in its file
-browser. Or, you can run it manually:
+browser. Just point the "Open With" dialog to either `openwith.sh` (Linux) or
+to the built `LensTagger.app` (MacOs).
 
 ```bash
 $ ./openwith.sh --lenses lenses.yaml file1.RW2 file2.JPG
 ```
 
 The wrapper script `openwith.sh` takes care the venv-python is used.
+
+## To Do
+1. But exiftool into some thread to make GUI responsive during tagging
+1. Find a way to permanently put Lens Tagger in OSX 'Open With' menu
+1. Package the app

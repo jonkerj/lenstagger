@@ -1,0 +1,6 @@
+venv/
+dist/
+build/
+LensTagger.icns
+.DS_Store
+.eggs/
