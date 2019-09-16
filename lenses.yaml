@@ -1,4 +1,16 @@
 ---
+exiftool: /usr/local/bin/exiftool
+lenses:
+- key: takumar
+  exif:
+    Lens: Asahi Super-Takumar 1:1.4/50
+    LensType: Asahi Super-Takumar 1:1.4/50
+    LensMake: Asahi Opt. Co.
+    LensModel: Super-Takumar 1:1.4/5
+    LensInfo: 50 50 1.4 1.4
+    FocalLength: 50
+    FocalLengthIn35mmFormat: 100
+    LensSerialNumber: '2548625'
 - key: helios44
   exif:
     Lens: Zenit Helios 44-2
@@ -19,6 +31,66 @@
     FocalLength: 28
     FocalLengthIn35mmFormat: 56
     LensSerialNumber: '28832266'
+- key: panagor28
+  exif:
+    Lens: Panagor PMC Auto Wide-Angle f=28mm 1:2.8
+    LensType: Panagor PMC Auto Wide-Angle f=28mm 1:2.8
+    LensMake: Panagor
+    LensModel: PMC Auto Wide-Angle f=28mm 1:2.8
+    LensInfo: 28 28 2.8 2.8
+    FocalLength: 28
+    FocalLengthIn35mmFormat: 56
+    LensSerialNumber: '793606'
+- key: jupiter8
+  exif:
+    Lens: KMZ Jupiter-8
+    LensType: KMZ Jupiter-8
+    LensMake: KMZ
+    LensModel: Jupiter-8
+    LensInfo: 50 50 2.0 2.0
+    FocalLength: 50
+    FocalLengthIn35mmFormat: 100
+    LensSerialNumber: '6233921'
+- key: pentax50
+  exif:
+    Lens: Asahi SMC Pentax-M 1:1.7 50mm
+    LensType: Asahi SMC Pentax-M 1:1.7 50mm
+    LensMake: Asahi Opt. Co., Japan
+    LensModel: SMC Pentax-M 1:1.7 50mm
+    LensInfo: 50 50 1.7 1.7
+    FocalLength: 50
+    FocalLengthIn35mmFormat: 100
+    LensSerialNumber: '4666405'
+- key: vega11u
+  exif:
+    Lens: KMZ Vega 11u
+    LensType: KMZ Vega 11u
+    LensMake: KMZ
+    LensModel: Vega 11u
+    LensInfo: 50 50 2.8 2.8
+    FocalLength: 50
+    FocalLengthIn35mmFormat: 100
+    LensSerialNumber: '851750'
+- key: optomax
+  exif:
+    Lens: Optomax Auto 1:2.8 f=135mm
+    LensType: Optomax Auto 1:2.8 f=135mm
+    LensMake: Optomax
+    LensModel: Auto 1:2.8 f=135mm
+    LensInfo: 135 135 2.8 2.8
+    FocalLength: 135
+    FocalLengthIn35mmFormat: 270
+    LensSerialNumber: '402981'
+- key: supra
+  exif:
+    Lens: Supra MC 1:3.5 f=200mm
+    LensType: Supra MC 1:3.5 f=200mm
+    LensMake: Unknown
+    LensModel: Supra MC 1:3.5 f=200mm
+    LensInfo: 200 200 3.5 3.5
+    FocalLength: 200
+    FocalLengthIn35mmFormat: 400
+    LensSerialNumber: '703030'
 - key: vivitar70-210
   exif:
     Lens: Vivitar 70-210mm 1:4.5 MC Macro Focusing Zoom
@@ -27,6 +99,14 @@
     LensModel: 70-210mm 1:4.5 MC Macro Focusing Zoom
     LensInfo: 70 210 4.5 4.5
     LensSerialNumber: '77618719'
+- key: soligor
+  exif:
+    Lens: Soligor C/D Zoom+Macro 80-200mm 1:4.5
+    LensType: Soligor C/D Zoom+Macro 80-200mm 1:4.5
+    LensMake: Soligor
+    LensModel: C/D Zoom+Macro 80-200mm 1:4.5
+    LensInfo: 80 210 4.5 4.5
+    LensSerialNumber: '382717200'
 - key: tokina
   exif:
     Lens: Tokina RMC 100-300mm 1:5
@@ -35,4 +115,14 @@
     LensModel: RMC 100-300mm 1:5
     LensInfo: 100 300 5.0 5.0
     LensSerialNumber: '7700764'
+- key: beroflex
+  exif:
+    Lens: Beroflex 1:8 f=500mm
+    LensType: Beroflex 1:8 f=500mm
+    LensMake: Beroflex
+    LensModel: 1:8 f=500mm
+    LensInfo: 500 500 8.0 8.0
+    LensSerialNumber: '849547'
+    FocalLength: 500
+    FocalLengthIn35mmFormat: 1000
 ...
