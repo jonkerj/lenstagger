@@ -91,6 +91,16 @@ lenses:
     FocalLength: 200
     FocalLengthIn35mmFormat: 400
     LensSerialNumber: '703030'
+- key: chinon
+  exif:
+    Lens: Auto Chinon Multi-Coated 1:1.7 f=55mm
+    LensType: Auto Chinon Multi-Coated 1:1.7 f=55mm
+    LensMake: Chinon
+    LensModel: Multi-Coated 1:1.7 f=55mm
+    LensInfo: 55 55 1.7 1.7
+    FocalLength: 55
+    FocalLengthIn35mmFormat: 110
+    LensSerialNumber: '419241'
 - key: vivitar70-210
   exif:
     Lens: Vivitar 70-210mm 1:4.5 MC Macro Focusing Zoom
